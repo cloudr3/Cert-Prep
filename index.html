@@ -105,8 +105,25 @@
                 </ul>    
             </li>
         </ol>
+
+        <h3> Specific CSS Tags/Rules: </h3>
+        <ul>
+            <li> The "Body" tag, is what wraps all the visible content on a web page, it is what styles the body of all the contents of an HTML document! Using this tag tells the browser what HTML element you want to style, in this case, the body.
+                <ol>
+                    <li> Here, you can style your body with different fonts with using the "font-family" property. </li>
+                </ol>    
+            </li>
+            <li> The "p" tag, is what wraps all the visible content that only applies to the "p" HTML tags back on the HTML file. Rather than the Body tag, you are rather styling only the "p" tags specifically (also known as paragraphs).
+                <ol>
+                    <li> With the "p" tag, you can style the paragraphs with a different color by using the "color" property. </li>
+                </ol>    
+            </li>
+        </ul>
+
         <p> As when to use each style sheet, we need to understand the cascading part of cascading style sheets (CSS). </p>
         <p> When creating and applying an external style sheet, you click on create a new file, name it however you want, but be sure to end the name with a ".css" that way, the program knows you are wanting to create a CSS file specifically. You can see this with previous HTML files, the names of each file always ends with a, ".html" </p>
         <p> Upon the creation of your CSS file, you are automatically (if not, you should put this first in the file) a Body tag with two curly braces by default. Here, I just style the Body tag and can change the "font-family" however I want. To link this CSS file with your HTML file, go to your HTML file and in the heading, you will type this exact piece of code "&lt;link rel="stylesheet" type="text/css" href="________.css" /&gt;" the blank space is just whatever name you gave that CSS file. </p>
+        <p> Now we really want to get into the cascading aspect of CSS. So you must be sure that you know the precedence order for external style sheets, internal style sheets, and inline sheets. </p>
+        <p> Internal style sheets take precedence over External style sheets for the same tag and property. An example of this is if you were to type a color change property for the "p" tags in your CSS file (External style sheet), but if you were to type a Style tag in your HTML file and type a color change property within that tag (Internal style sheet), the Internal style sheet will always take precedence over the External style sheet. </p>
     </body>
 </html>
