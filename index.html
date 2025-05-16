@@ -75,7 +75,7 @@
             <li> Nonbreaking space </li>
             <li> Double quotation (&quot;) </li>
         </ol>
-        <p> Remember the the big 4 every HTML file is: DOCTYPE, HTML, Head, & Body. </p>
+        <p> Remember the big 4 every HTML file is: DOCTYPE, HTML, Head, & Body. </p>
 
         <hr>
 
@@ -121,16 +121,36 @@
             </li>
         </ul>
 
+        <h3> CSS Styles/Properties: </h3>
+        <ul> 
+            <li> The "font-family" property, is what changes the font on your browser/website. </li>
+            <li> The "background-color" property, is what changes the background color of your browser/website (can also be used for text, its like a highlighter as a background for your text!). If you don't really change it, the background remains white as default. </li>
+            <li> The "color" property, is what changes the color of your text (or anything else that you apply it to) that is displayed on your browser/website. </li>
+            <li> The "font-weight" property, sets how thick or thin characters in the text within your browser/website should be displayed. Values like Bold, normal, or bolder can be used. </li>
+        </ul>
+
+        <h3> Other Ways to Create Styles: </h3>
+        <ul> 
+            <li> A "Class" is a style that can be applied to any tag at any time. All Classes start with a "." and can be named anything, as long as it is valid. You just cannot have spaces in the name. </li>
+        </ul>
+
         <h3> New HTML Tags I learned: </h3>
         <ul> 
             <li> The "Style" tag, defines the style information for an HTML document. It is placed within the "Head" section of the HTML code. This tag is used specifically for Internal style sheets. </li>
+            <li> The "Span" tag, is an inline container used to mark up a part of a text or document. It is often used to apply styles or manipulate specific parts of the content with JavaScript. You can apply a "Class" within your Span tag. </li>
         </ul>
 
         <p> As when to use each style sheet, we need to understand the cascading part of cascading style sheets (CSS). </p>
         <p> When creating and applying an external style sheet, you click on create a new file, name it however you want, but be sure to end the name with a ".css" that way, the program knows you are wanting to create a CSS file specifically. You can see this with previous HTML files, the names of each file always ends with a, ".html" </p>
         <p> Upon the creation of your CSS file, you are automatically (if not, you should put this first in the file) a Body tag with two curly braces by default. Here, I just style the Body tag and can change the "font-family" however I want. To link this CSS file with your HTML file, go to your HTML file and in the heading, you will type this exact piece of code "&lt;link rel="stylesheet" type="text/css" href="________.css" /&gt;" the blank space is just whatever name you gave that CSS file. </p>
         <p> Now we really want to get into the cascading aspect of CSS. So you must be sure that you know the precedence order for external style sheets, internal style sheets, and inline sheets. </p>
-        <p> Internal style sheets take precedence over External style sheets for the same tag and property. An example of this is if you were to type a color change property for the "p" tags in your CSS file (External style sheet), but if you were to type a Style tag in your HTML file and type a color change property within that tag (Internal style sheet), the Internal style sheet will always take precedence over the External style sheet. </p>
-        <p> Inline style sheets take precedence over Internal style sheets AND External style sheets for the same tag and property. An example is when you style a specific "p" tag in your HTML to a certain color, the style you typed for the Internal & External style sheets will be overridden by the style of the Inline style sheet, even if there is a different color from the Internal & External style sheets, the Inline style sheet will always override both. </p>
+        <p> Internal style sheets take precedence over External style sheets for the same tag and property. An example of this is if you were to type a color change property for the "p" tags in your CSS file (External style sheet), but if you were to type a Style tag in your HTML file and type a color change property within that tag (Internal style sheet), the Internal style sheet will always take precedence over the External style sheet. Inline style sheets take precedence over Internal style sheets AND External style sheets for the same tag and property. An example is when you style a specific "p" tag in your HTML to a certain color, the style you typed for the Internal & External style sheets will be overridden by the style of the Inline style sheet, even if there is a different color from the Internal & External style sheets, the Inline style sheet will always override both. So here is the order from which style sheet takes precedence first to last
+            <ol> 
+                <li> Inline Style Sheets </li>    
+                <li> Internal Style Sheets </li>
+                <li> External Style Sheets </li>
+            </ol>
+        </p>
+        <p> A "Rule Set" in CSS is a combination of a selector which can be, a tag, class or ID, and the property & value pairs set in the style sheet. Any styles that you decide to add is within the curly brackets of a tag in your CSS file. You have pairs of properties being changed, and values they are set to. </p>
     </body>
 </html>
