@@ -1,162 +1,325 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="My Certification Practice">
-        <meta name="keywords" content="HTML, CSS, Certiport Exam">
-        <meta name="author" content="Cloud R.">
-        <meta name="viewport" content="witdh-device-width, initial-scale=1.0"
-        <title> Cloud R. Practice Cert </title>
-        <link rel="icon" type="image/jpeg" href="avatar.jpeg"> 
-    </head>
-    <body>
-        <nav>
-            <a href="Domain 1/MusicStore1/11a-scripts.html"> Domain 1</a>
-            <a href="Domain 1/MusicStore1/index.html"> Domain 1 (Index)</a>
-            <a href="Domain 2/MusicStore2/21a-index.html"> Domain 2</a>
-            <a href="Domain 3/MusicStore3/31b-index.html"> Domain 3</a>
-            <a href="Domain 4/Student/MusicStore4/index.html"> Domain 4</a>
-            <a href="Domain 5/MusicStore5/54a-index.html"> Domain 5</a>
-            <a href="Domain 6/index.html"> Domain 6</a>
-        </nav>
-        <h1> Cloud R. Cert Prep </h1>
-        <p> I remember that HTML stands for, "Hypertext Markup Language." It is a language used for creating web pages (CSS included too!). HTML Elements are a piece of a website, marked by a start tag and often closed with an end tag. HTML Tags are The special set of characters that indicates the start and end of an HTML element and that element's type. </p>
-        
-        <h2> What I have learned in each Domain: </h2>
-        
-        <hr>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Certification Practice">
+    <meta name="keywords" content="HTML, CSS, Certiport Exam">
+    <meta name="author" content="Cloud R.">
+    <meta name="viewport" content="witdh-device-width, initial-scale=1.0"
+          <title> Cloud R. Practice Cert </title>
+  <link rel="icon" type="image/jpeg" href="avatar.jpeg"> 
 
-        <h2> DOMAIN 1 (HTML Fundementals): </h2>
-        <p> To start off, HTML is a "markup language." HTML defines document structure. In this domain, I learn how to markup text using HTML Tags, and learning what these Tags can do. Be sure to remember that ALL tags start with an "&lt;_____&gt;" (the empty space is the specific tag you are putting within the angle brackets), and (Be sure to note some tags do not need to end with the name of the specific tag you are using! You just need to finish it off with a "/&gt;") ends with a "&lt;/_____&gt;." Take for example a "Body" tag, you start of with a "&lt;body&gt;" tag, but at the end, you finish it off with a "&lt;/body&gt;" tag.</p>
-        <h3> Specific HTML Tags: </h3>
-        <ul>
-            <li> The "&lt;!DOCTYPE html&gt;" tag, simply indicates that this an HTML-5 document. This is the typical doctype declaration you'll normally see. </li>
-            <li> The "html" tag, indicates that anything from the opening HTML tag to the closing of the HTML tag, is the HTML code that makes up your web page. </li>
-            <li> The "Script" tag is a tag that will hold programming scripts. </li>
-            <li> The "No Script" (noscript) tag, let's users know if their browser does not support the programming language we are trying to use. </li>
-            <li> The "Head" tag, contains information that describes a web page, BUT does not necessarily show on a web page. The two most common pieces of information in the head tag, besides meta information, are scripts and titles. </li>
-            <li> The "p" tag, develops paragraphs within the body of your web page. With this tag, you simply can type out sentences that you want to be displayed on your browser. </li>
-            <li> The "Body" tag, contains information that will show ON a web page. </li>
-            <li> The "Title" tag, is what the title for your Window Tab (or name of your website/browser) will be displayed as. </li>
-            <li> The "Link" tag, allows us to link to external files, such as style sheets & scripts. These are links used to accentuate the current page. Its good to note that links go IN the head section, this is due to how they do not actually display on the web page. </li>
-            <li> The "Meta" tag, defines metadata about an HTML file. 
-                <ol>
-                    <li>A common use for the Meta tag is to use "keywords." Keywords are often picked up by search engines to search results for search engines.</li>
-                    <li>With using a Meta tag and including a "Description" setting within this tag, it adds a line that a search engine will display as a description.</li>
-                    <li>The Meta tag can also be used with a vieport setting, this setting tells a browser on how to render a website across devices. By setting your Content = to "width=device-witdh, initial-scale=1.0" you are telling the content to fit a device's width with a default scale of 1.0/normal size.</li>
-                    <li>You may not want a web page to not be translated by a translator, take Google translate as an example, you will then enter the no translate setting to where name="google" and content="notranslate"</li>
-                </ol>
-            </li>
-        </ul>
-        <h3> Other Useful Facts: </h3>
-        <p> Every "/" at the end always indicates that you are closing that specific tag. </p>
-        <p> Your "Title" in the heading of your HTML displays as the title on the Window Tab (basically the website name). Without it, the title on the Window Tab will just be labeled as, "Untitled." That is how your page will show up in a search engine. </p>
-        <p> Metadata is often describes as data describing data. Metadata can include things such as character types, keywords to help with search engines, & provide ways in which different device types should render web pages. </p>
-        <p> The character set, "UTF-8" is a unicode set that supports characters 1 to 4 bytes long, and is the default setting for HTML-5 as it supports all basic characters. If you were to have a website that has Latin, Cyrilic or Chinese characters, you would want to use the "UTF-16" character set. </p>
-        <p> In HTML code, most tags (as I've said before) have an opening and closing tag, a few tags however do not technically need closing tags. These tags are known as "Void Elements" in that, they are self-contained (or in some cases, contain no data at all). To determine which tags are Void Elements, let's use the Title tag as an example, you can see how the Title tag has a "&lt;title&gt;" at the start, and ends with a "&lt;/title&gt;" meaning you are telling the browser that you are done with the Title. However, with the Meta tag, you can see how it starts off with a "&lt;meta" and ends with only just a "/&gt;" this is a clear distinction on how you can tell the difference between a regular tag and a Void Element. </p>
-        <p> An "Entity" is little pieces of HTML code that display symbols and characters. </p>
-        <p> With building web pages, sometimes I may often want to put placeholders for text that will need to be added later. Another way to explain this is how sometimes, I may just want to put explanations in for parts of a web page that do not display in a browser, but will show in your text editor. This is what's called a "Comment." This will help in any collaborative efforts in building a website. To creat a comment, start with this, "&lt;!--" and end with a "--&gt;" comments can also take up multiple lines too. </p>
-        <h3> HTML's Symbols and Entities: </h3>
-        <p> (just get rid of the spacing in each Symbol) Symbol: </p>
-        <ol>
-            <li> "& lt ;" </li>
-            <li> "& gt ;" </li>
-            <li> "& amp ;" </li>
-            <li> "& copy ;" </li>
-            <li> "& nbsp ;" </li>
-            <li> "& quot ;" </li>
-        </ol>
-        <p> Entity: </p>
-        <ol>
-            <li> Less than symbol (&lt;) </li>
-            <li> Greater than symbol (&gt;) </li>
-            <li> Ampersand (&amp;) </li>
-            <li> Copyright (&copy;) </li>
-            <li> Nonbreaking space </li>
-            <li> Double quotation (&quot;) </li>
-        </ol>
-        <p> Remember the big 4 every HTML file is: DOCTYPE, HTML, Head, & Body. </p>
+  <style>
+    /* Basic reset and body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
 
-        <hr>
+    /* Header and navigation styling */
+    header {
+      background-color: #333;
+      padding: 1rem 0;
+    }
 
-        <h2> DOMAIN 2 (CSS Fundementals): </h2>
-        <p> CSS, are also known as "Cascading Style Sheets." CSS define document formats. In this Domain, I learn the use of CSS, and what it can do. CSS is a computer language for laying out and structuring web pages (HTML). </p>
-        <p> The best practice for style sheets: 
-            <ul>
-                <li> Use external style sheets as much as possible to keep consistency within a website. </li>
-                <li> To vary the formatting on an individual page, use an internal style sheet. </li>
-                <li> Inline styles should be used very sparingly, only when that formatting will not be used again. Otherwise, you will have to repeat that style if you use it someplace else, and that can lead to inconsistencies within formatting. </li>
-            </ul>
-            </p>
-        <h3> The 3 Different Style Sheets for Web Pages: </h3>
-        <ol>
-            <li> External Style Sheet
-                <ul> 
-                    <li> A style sheet is created as a seperate file and then applied to some pages in a website. </li>
-                </ul>    
-            </li>
-            <li> Internal Style Sheet
-                <ul> 
-                    <li> A style sheet is created for and applied to a single web page. </li>
-                </ul>    
-            </li>
-            <li> Inline Style Sheet
-                <ul> 
-                    <li> A style is applied directly to an HTML tag on a page. </li>
-                </ul>    
-            </li>
-        </ol>
+    nav {
+      display: flex;
+      justify-content: space-evenly; /* Align items evenly */
+      align-items: center;
+      padding: 0 20px;
+    }
 
-        <h3> Specific CSS Tags/Rules: </h3>
-        <ul>
-            <li> The "Body" tag, is what wraps all the visible content on a web page, it is what styles the body of all the contents of an HTML document! Using this tag tells the browser what HTML element you want to style, in this case, the body.
-                <ol>
-                    <li> Here, you can style your body with different fonts with using the "font-family" property. </li>
-                </ol>    
-            </li>
-            <li> The "p" tag, is what wraps all the visible content that only applies to the "p" HTML tags back on the HTML file. Rather than the Body tag, you are rather styling only the "p" tags specifically (also known as paragraphs).
-                <ol>
-                    <li> With the "p" tag, you can style the paragraphs with a different color by using the "color" property. </li>
-                </ol>    
-            </li>
-        </ul>
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      text-align: center;
+    }
 
-        <h3> CSS Styles/Properties: </h3>
-        <ul> 
-            <li> The "font-family" property, is what changes the font on your browser/website. </li>
-            <li> The "background-color" property, is what changes the background color of your browser/website (can also be used for text, its like a highlighter as a background for your text!). If you don't really change it, the background remains white as default. </li>
-            <li> The "color" property, is what changes the color of your text (or anything else that you apply it to) that is displayed on your browser/website. </li>
-            <li> The "font-weight" property, sets how thick or thin characters in the text within your browser/website should be displayed. Values like Bold, normal, or bolder can be used. </li>
-            <li> The "text-weight" property, is used to set the appearance of decorative lines on text. </li>
-        </ul>
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
 
-        <h3> Other Ways to Create Styles: </h3>
-        <ul> 
-            <li> A "Class" is a style that can be applied to any tag at any time. All Classes start with a "." and can be named anything, as long as it is valid. You just cannot have spaces in the name. A Class can be used as many times as you want. External style sheets are made in the Head. </li>
-            <li> A "ID" is a selector that's similar to a class, with one exception. It should be use just once per page. All ID's start with a "#" (or pound symbol as what it is called) and can be named anything. First, any scripts used to enhance an HTML element will refer to the element by ID. Secondly, IDs can be added to CSS files and then used in a similar fashion as are classes. </li>
-            <li> A "Pseudo Class" is a class that applies specifically to a tag. For example the "a" tag has several Pseudo Classes which include "visited" which allows us to format a hyperlink that has been visited, "Active" which formats a hyperlink being clicked, and "Hover" which formats the hyperlink when a mouse hovers over it. </li>
-        </ul>
+    /* Dropdown container */
+    .dropdown {
+      position: relative;
+    }
 
-        <h3> New HTML Tags I learned: </h3>
-        <ul> 
-            <li> The "Style" tag, defines the style information for an HTML document. It is placed within the "Head" section of the HTML code. This tag is used specifically for Internal style sheets. </li>
-            <li> The "Span" tag, is an inline container used to mark up a part of a text or document. It is often used to apply styles or manipulate specific parts of the content with JavaScript. You can apply a "Class" within your Span tag. </li>
-            <li> The "b" or "Strong" tag, is what makes your text bold in your web page. </li>
-            <li> The "a" tag, otherwise known as the "Anchor Element" creates a hyperlink to web pages, files, email addresses, locations in the same page, or amythimg else a URL can address. </li>
-        </ul>
+    .dropbtn {
+      font-size: 16px;
+      color: white;
+      padding: 14px 20px;
+      background-color: #333;
+      border: none;
+      cursor: pointer;
+    }
 
-        <p> As when to use each style sheet, we need to understand the cascading part of cascading style sheets (CSS). </p>
-        <p> When creating and applying an external style sheet, you click on create a new file, name it however you want, but be sure to end the name with a ".css" that way, the program knows you are wanting to create a CSS file specifically. You can see this with previous HTML files, the names of each file always ends with a, ".html" </p>
-        <p> Upon the creation of your CSS file, you are automatically (if not, you should put this first in the file) a Body tag with two curly braces by default. Here, I just style the Body tag and can change the "font-family" however I want. To link this CSS file with your HTML file, go to your HTML file and in the heading, you will type this exact piece of code "&lt;link rel="stylesheet" type="text/css" href="________.css" /&gt;" the blank space is just whatever name you gave that CSS file. </p>
-        <p> Now we really want to get into the cascading aspect of CSS. So you must be sure that you know the precedence order for external style sheets, internal style sheets, and inline sheets. </p>
-        <p> Internal style sheets take precedence over External style sheets for the same tag and property. An example of this is if you were to type a color change property for the "p" tags in your CSS file (External style sheet), but if you were to type a Style tag in your HTML file and type a color change property within that tag (Internal style sheet), the Internal style sheet will always take precedence over the External style sheet. Inline style sheets take precedence over Internal style sheets AND External style sheets for the same tag and property. An example is when you style a specific "p" tag in your HTML to a certain color, the style you typed for the Internal & External style sheets will be overridden by the style of the Inline style sheet, even if there is a different color from the Internal & External style sheets, the Inline style sheet will always override both. So here is the order from which style sheet takes precedence first to last
-            <ol> 
-                <li> Inline Style Sheets </li>    
-                <li> Internal Style Sheets </li>
-                <li> External Style Sheets </li>
-            </ol>
-        </p>
-        <p> A "Rule Set" in CSS is a combination of a selector which can be, a tag, class or ID, and the property & value pairs set in the style sheet. Any styles that you decide to add is within the curly brackets of a tag in your CSS file. You have pairs of properties being changed, and values they are set to. </p>
-        <p> To end things off, remember that styles can be applied to Tags, Classes, and ID's. Classes can be applied to ANY tag. ID's should only be applied once per page.  </p>
-    </body>
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 160px;
+      z-index: 1;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Main content styling */
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    /* Make the layout responsive */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .dropdown-content {
+        width: 100%;
+      }
+
+      .dropbtn {
+        width: 100%;
+        text-align: left;
+      }
+
+      nav a {
+        padding: 12px 18px;
+      }
+    }
+  </style>
+
+
+  </head>
+<body>
+  
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+
+      <!-- Domain 1 -->
+      <div class="dropdown">
+        <button class="dropbtn">Domain 1</button>
+        <div class="dropdown-content">
+          <a href="Domain 1/MusicStore1/11a-scripts.html">Link 1</a>
+          <a href="Domain 1/MusicStore1/11b-scripts.html">Link 2</a>
+          <a href="Domain 1/MusicStore1/11c-scripts.html">Link 3</a>
+        </div>
+      </div>
+
+      <!-- Domain 2 -->
+      <div class="dropdown">
+        <button class="dropbtn">Domain 2</button>
+        <div class="dropdown-content">
+          <a href="Domain 2/MusicStore2/21a-index.html">Link 1</a>
+          <a href="Domain 2/MusicStore2/21b-index.html">Link 2</a>
+          <a href="Domain 2/MusicStore2/21c-index.html">Link 3</a>
+        </div>
+      </div>
+
+      <!-- Domain 3 -->
+      <div class="dropdown">
+        <button class="dropbtn">Domain 3</button>
+        <div class="dropdown-content">
+          <a href="Domain 3/MusicStore3/31b-index.html">Link 1</a>
+          <a href="Domain 3/MusicStore3/31c-index.html">Link 2</a>
+        </div>
+      </div>
+
+      <!-- Domain 4 -->
+      <div class="dropdown">
+        <button class="dropbtn">Domain 4</button>
+        <div class="dropdown-content">
+          <a href="Domain 4/Student/MusicStore4/index.html">Link 1</a>
+          <a href="Domain 4/Student/MusicStore4/about.html">Link 2</a>
+        </div>
+      </div>
+
+      <!-- Domain 5 -->
+      <div class="dropdown">
+        <button class="dropbtn">Domain 5</button>
+        <div class="dropdown-content">
+          <a href="Domain 5/MusicStore5/54a-index.html">Link 1</a>
+          <a href="Domain 5/MusicStore5/54b-index.html">Link 2</a>
+        </div>
+      </div>
+
+      <!-- Domain 6 -->
+      <div class="dropdown">
+        <button class="dropbtn">Domain 6</button>
+        <div class="dropdown-content">
+          <a href="Domain 6/index.html">Link 1</a>
+          <a href="Domain 6/about.html">Link 2</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+  <h1> Cloud R. Cert Prep </h1>
+  <p> I remember that HTML stands for, "Hypertext Markup Language." It is a language used for creating web pages (CSS included too!). HTML Elements are a piece of a website, marked by a start tag and often closed with an end tag. HTML Tags are The special set of characters that indicates the start and end of an HTML element and that element's type. </p>
+
+  <h2> What I have learned in each Domain: </h2>
+
+  <hr>
+
+  <h2> DOMAIN 1 (HTML Fundementals): </h2>
+  <p> To start off, HTML is a "markup language." HTML defines document structure. In this domain, I learn how to markup text using HTML Tags, and learning what these Tags can do. Be sure to remember that ALL tags start with an "&lt;_____&gt;" (the empty space is the specific tag you are putting within the angle brackets), and (Be sure to note some tags do not need to end with the name of the specific tag you are using! You just need to finish it off with a "/&gt;") ends with a "&lt;/_____&gt;." Take for example a "Body" tag, you start of with a "&lt;body&gt;" tag, but at the end, you finish it off with a "&lt;/body&gt;" tag.</p>
+  <h3> Specific HTML Tags: </h3>
+  <ul>
+    <li> The "&lt;!DOCTYPE html&gt;" tag, simply indicates that this an HTML-5 document. This is the typical doctype declaration you'll normally see. </li>
+    <li> The "html" tag, indicates that anything from the opening HTML tag to the closing of the HTML tag, is the HTML code that makes up your web page. </li>
+    <li> The "Script" tag is a tag that will hold programming scripts. </li>
+    <li> The "No Script" (noscript) tag, let's users know if their browser does not support the programming language we are trying to use. </li>
+    <li> The "Head" tag, contains information that describes a web page, BUT does not necessarily show on a web page. The two most common pieces of information in the head tag, besides meta information, are scripts and titles. </li>
+    <li> The "p" tag, develops paragraphs within the body of your web page. With this tag, you simply can type out sentences that you want to be displayed on your browser. </li>
+    <li> The "Body" tag, contains information that will show ON a web page. </li>
+    <li> The "Title" tag, is what the title for your Window Tab (or name of your website/browser) will be displayed as. </li>
+    <li> The "Link" tag, allows us to link to external files, such as style sheets & scripts. These are links used to accentuate the current page. Its good to note that links go IN the head section, this is due to how they do not actually display on the web page. </li>
+    <li> The "Meta" tag, defines metadata about an HTML file. 
+      <ol>
+        <li>A common use for the Meta tag is to use "keywords." Keywords are often picked up by search engines to search results for search engines.</li>
+        <li>With using a Meta tag and including a "Description" setting within this tag, it adds a line that a search engine will display as a description.</li>
+        <li>The Meta tag can also be used with a vieport setting, this setting tells a browser on how to render a website across devices. By setting your Content = to "width=device-witdh, initial-scale=1.0" you are telling the content to fit a device's width with a default scale of 1.0/normal size.</li>
+        <li>You may not want a web page to not be translated by a translator, take Google translate as an example, you will then enter the no translate setting to where name="google" and content="notranslate"</li>
+      </ol>
+    </li>
+  </ul>
+  <h3> Other Useful Facts: </h3>
+  <p> Every "/" at the end always indicates that you are closing that specific tag. </p>
+  <p> Your "Title" in the heading of your HTML displays as the title on the Window Tab (basically the website name). Without it, the title on the Window Tab will just be labeled as, "Untitled." That is how your page will show up in a search engine. </p>
+  <p> Metadata is often describes as data describing data. Metadata can include things such as character types, keywords to help with search engines, & provide ways in which different device types should render web pages. </p>
+  <p> The character set, "UTF-8" is a unicode set that supports characters 1 to 4 bytes long, and is the default setting for HTML-5 as it supports all basic characters. If you were to have a website that has Latin, Cyrilic or Chinese characters, you would want to use the "UTF-16" character set. </p>
+  <p> In HTML code, most tags (as I've said before) have an opening and closing tag, a few tags however do not technically need closing tags. These tags are known as "Void Elements" in that, they are self-contained (or in some cases, contain no data at all). To determine which tags are Void Elements, let's use the Title tag as an example, you can see how the Title tag has a "&lt;title&gt;" at the start, and ends with a "&lt;/title&gt;" meaning you are telling the browser that you are done with the Title. However, with the Meta tag, you can see how it starts off with a "&lt;meta" and ends with only just a "/&gt;" this is a clear distinction on how you can tell the difference between a regular tag and a Void Element. </p>
+  <p> An "Entity" is little pieces of HTML code that display symbols and characters. </p>
+  <p> With building web pages, sometimes I may often want to put placeholders for text that will need to be added later. Another way to explain this is how sometimes, I may just want to put explanations in for parts of a web page that do not display in a browser, but will show in your text editor. This is what's called a "Comment." This will help in any collaborative efforts in building a website. To creat a comment, start with this, "&lt;!--" and end with a "--&gt;" comments can also take up multiple lines too. </p>
+  <h3> HTML's Symbols and Entities: </h3>
+  <p> (just get rid of the spacing in each Symbol) Symbol: </p>
+  <ol>
+    <li> "& lt ;" </li>
+    <li> "& gt ;" </li>
+    <li> "& amp ;" </li>
+    <li> "& copy ;" </li>
+    <li> "& nbsp ;" </li>
+    <li> "& quot ;" </li>
+  </ol>
+  <p> Entity: </p>
+  <ol>
+    <li> Less than symbol (&lt;) </li>
+    <li> Greater than symbol (&gt;) </li>
+    <li> Ampersand (&amp;) </li>
+    <li> Copyright (&copy;) </li>
+    <li> Nonbreaking space </li>
+    <li> Double quotation (&quot;) </li>
+  </ol>
+  <p> Remember the big 4 every HTML file is: DOCTYPE, HTML, Head, & Body. </p>
+
+  <hr>
+
+  <h2> DOMAIN 2 (CSS Fundementals): </h2>
+  <p> CSS, are also known as "Cascading Style Sheets." CSS define document formats. In this Domain, I learn the use of CSS, and what it can do. CSS is a computer language for laying out and structuring web pages (HTML). </p>
+  <p> The best practice for style sheets: 
+  <ul>
+    <li> Use external style sheets as much as possible to keep consistency within a website. </li>
+    <li> To vary the formatting on an individual page, use an internal style sheet. </li>
+    <li> Inline styles should be used very sparingly, only when that formatting will not be used again. Otherwise, you will have to repeat that style if you use it someplace else, and that can lead to inconsistencies within formatting. </li>
+  </ul>
+  </p>
+<h3> The 3 Different Style Sheets for Web Pages: </h3>
+<ol>
+  <li> External Style Sheet
+    <ul> 
+      <li> A style sheet is created as a seperate file and then applied to some pages in a website. </li>
+    </ul>    
+  </li>
+  <li> Internal Style Sheet
+    <ul> 
+      <li> A style sheet is created for and applied to a single web page. </li>
+    </ul>    
+  </li>
+  <li> Inline Style Sheet
+    <ul> 
+      <li> A style is applied directly to an HTML tag on a page. </li>
+    </ul>    
+  </li>
+</ol>
+
+<h3> Specific CSS Tags/Rules: </h3>
+<ul>
+  <li> The "Body" tag, is what wraps all the visible content on a web page, it is what styles the body of all the contents of an HTML document! Using this tag tells the browser what HTML element you want to style, in this case, the body.
+    <ol>
+      <li> Here, you can style your body with different fonts with using the "font-family" property. </li>
+    </ol>    
+  </li>
+  <li> The "p" tag, is what wraps all the visible content that only applies to the "p" HTML tags back on the HTML file. Rather than the Body tag, you are rather styling only the "p" tags specifically (also known as paragraphs).
+    <ol>
+      <li> With the "p" tag, you can style the paragraphs with a different color by using the "color" property. </li>
+    </ol>    
+  </li>
+</ul>
+
+<h3> CSS Styles/Properties: </h3>
+<ul> 
+  <li> The "font-family" property, is what changes the font on your browser/website. </li>
+  <li> The "background-color" property, is what changes the background color of your browser/website (can also be used for text, its like a highlighter as a background for your text!). If you don't really change it, the background remains white as default. </li>
+  <li> The "color" property, is what changes the color of your text (or anything else that you apply it to) that is displayed on your browser/website. </li>
+  <li> The "font-weight" property, sets how thick or thin characters in the text within your browser/website should be displayed. Values like Bold, normal, or bolder can be used. </li>
+  <li> The "text-weight" property, is used to set the appearance of decorative lines on text. </li>
+</ul>
+
+<h3> Other Ways to Create Styles: </h3>
+<ul> 
+  <li> A "Class" is a style that can be applied to any tag at any time. All Classes start with a "." and can be named anything, as long as it is valid. You just cannot have spaces in the name. A Class can be used as many times as you want. External style sheets are made in the Head. </li>
+  <li> A "ID" is a selector that's similar to a class, with one exception. It should be use just once per page. All ID's start with a "#" (or pound symbol as what it is called) and can be named anything. First, any scripts used to enhance an HTML element will refer to the element by ID. Secondly, IDs can be added to CSS files and then used in a similar fashion as are classes. </li>
+  <li> A "Pseudo Class" is a class that applies specifically to a tag. For example the "a" tag has several Pseudo Classes which include "visited" which allows us to format a hyperlink that has been visited, "Active" which formats a hyperlink being clicked, and "Hover" which formats the hyperlink when a mouse hovers over it. </li>
+</ul>
+
+<h3> New HTML Tags I learned: </h3>
+<ul> 
+  <li> The "Style" tag, defines the style information for an HTML document. It is placed within the "Head" section of the HTML code. This tag is used specifically for Internal style sheets. </li>
+  <li> The "Span" tag, is an inline container used to mark up a part of a text or document. It is often used to apply styles or manipulate specific parts of the content with JavaScript. You can apply a "Class" within your Span tag. </li>
+  <li> The "b" or "Strong" tag, is what makes your text bold in your web page. </li>
+  <li> The "a" tag, otherwise known as the "Anchor Element" creates a hyperlink to web pages, files, email addresses, locations in the same page, or amythimg else a URL can address. </li>
+</ul>
+
+<p> As when to use each style sheet, we need to understand the cascading part of cascading style sheets (CSS). </p>
+<p> When creating and applying an external style sheet, you click on create a new file, name it however you want, but be sure to end the name with a ".css" that way, the program knows you are wanting to create a CSS file specifically. You can see this with previous HTML files, the names of each file always ends with a, ".html" </p>
+<p> Upon the creation of your CSS file, you are automatically (if not, you should put this first in the file) a Body tag with two curly braces by default. Here, I just style the Body tag and can change the "font-family" however I want. To link this CSS file with your HTML file, go to your HTML file and in the heading, you will type this exact piece of code "&lt;link rel="stylesheet" type="text/css" href="________.css" /&gt;" the blank space is just whatever name you gave that CSS file. </p>
+<p> Now we really want to get into the cascading aspect of CSS. So you must be sure that you know the precedence order for external style sheets, internal style sheets, and inline sheets. </p>
+<p> Internal style sheets take precedence over External style sheets for the same tag and property. An example of this is if you were to type a color change property for the "p" tags in your CSS file (External style sheet), but if you were to type a Style tag in your HTML file and type a color change property within that tag (Internal style sheet), the Internal style sheet will always take precedence over the External style sheet. Inline style sheets take precedence over Internal style sheets AND External style sheets for the same tag and property. An example is when you style a specific "p" tag in your HTML to a certain color, the style you typed for the Internal & External style sheets will be overridden by the style of the Inline style sheet, even if there is a different color from the Internal & External style sheets, the Inline style sheet will always override both. So here is the order from which style sheet takes precedence first to last
+<ol> 
+  <li> Inline Style Sheets </li>    
+  <li> Internal Style Sheets </li>
+  <li> External Style Sheets </li>
+</ol>
+</p>
+<p> A "Rule Set" in CSS is a combination of a selector which can be, a tag, class or ID, and the property & value pairs set in the style sheet. Any styles that you decide to add is within the curly brackets of a tag in your CSS file. You have pairs of properties being changed, and values they are set to. </p>
+<p> To end things off, remember that styles can be applied to Tags, Classes, and ID's. Classes can be applied to ANY tag. ID's should only be applied once per page.  </p>
+</body>
 </html>
