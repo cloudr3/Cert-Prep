@@ -397,6 +397,7 @@
 
 <h3> New Attributes I learned: </h3>
 <ul>
+  <li> The "href" attribute, defines the destination URL of a hyperlink. It specifies the URL of the page or resource that will be opened when the link is clicked. </li>
   <li> The "Border" attribute, is used to specify the border of a table. It sets the border around the table cells. </li>
   <li> The "colspan" attribute, allows you to make a row or column span across multiple "&lt;td&gt;" or "&lt;th&gt;" cells. </li>
   <li> The "Alignment" attribute, specifies the horizontal alignment of text in an element. You can align your text (or whatever really) to the left, right, center, or justify (I don't know what that does) your text. </li>
@@ -417,7 +418,27 @@
 
 <h3> PART 2 - </h3> 
 
-<p> HTML links are known as "hyperlinks" you can click on a link and jump to another document. One of the tags used to create hyperlinks is the "a" Tag (you can find info of it back on Domain 2). </p>
- 
+<p> HTML links are known as "hyperlinks" you can click on a link and jump to another document. One of the tags used to create hyperlinks is the "a" Tag (you can find info of it back on Domain 2). One design rule in websites is to keep people on your website as much as possible. </p>
+<p> In addition to adding hyperlinks to navigate to web pages, you may want to control how a web page loads once a link has been clicked! Continuing on from that one design rule, one way to do this, especially for hyperlinks that go out your website, is to set the "Target" of a hyperlink to open in a new window (aka a new Tab). </p>
+<p> Another feature of hyperlinks, specifically the "a" tag, links to a specific spot on a web page. This is known as a "Bookmark" </p> 
+
+<h3> New Attributes I learned: </h3>
+<ul>
+  <li> The "Target" attribute, specifies where to open the linked document. If you put in "_blank" as an example, your hyperlink will open up a brand new window/tab. </li>
+</ul>
+
+<h3> Specific Links in HTML and their Purpose: </h3>
+<ul>
+  <li> A "Hyperlink" moves the user to another webpage when it is clicked. A hyperlink can be internal or external to a website. </li>
+  <li> A "Bookmark"  is a type of hyperlink that navigates to a specific location on a webpage. This can be a location on the same webpage as the hyperlink or to a specific location on a different page. Bookmarks are especially very helpful with navigating within long web pages. The location for the bookmark must be defined. This is done using the anchor "a" tag and the name attribute. Then, the hyperlink uses the # symbol in front of the name (using the "name" attribute) of whatever you put within the "a" tag of whever you want the hyperlink to be directed towards. It's very hard to explain this...</li>
+  <li> "Relative" links, are hyperlinks located within the same website from the HTML document from where the link originates. </li>
+  <li> "Absolute" links, are hyperlinks in which the destination is not in the same website of the webpage from which the link originates. </li>
+  <li> "Relative" hyperlinks, are often located within folders different from the pages in which they originate. For simple folder hierarchies, the folder name needs to precede the webpage name in a hyperlink if the folder is below the webpage in the hierarchy of the website. However, if the folder is above the webpage in the hierarchy, two dots and a backslash (like this "../") need to be placed in front of the folder name. If you want to move down a folder path however, all you need is a simple slash "/" </li>
+</ul>
+
+<p> Most of the hyperlinks that you'll create to link from page to page within a website, are what we call "Relative links." For example, look at "33d-spotlight.html" (or really just go to video 24, and go to time-stamp 0.06) and take a look at the hyperlink that is within the Home, down below in the HTML. The hyperlink leads to the index.html within Domain 3's folder. This really only works because of how each of these files are within the same folder. If it were not, then it won't work. But to solve this, you know that most external links will not be in the same folder as the current HTML you are in. For this, now you will need an "Absolute link" which contains the complete address to the link. You can add an Absolute link to a text with, let's say for example, a wikipedia page, so just copy and paste the full link from the window of the wikipedia page and paste it within an "a" tag with the "href" attribute.</p>
+<p> Friendly reminder, when you create an external link, most of the time you will want to make sure you set that target to have the link open in a blank tab (use "_blank"). This is because of the GOLDEN RULE OF HYPERLINKS!!!! And that is to keep people on your website as much as possible.  </p>
+<p> FOR THE EXAM! You will want to make sure that when referencing links or images, you know the proper code to navigate DOWN a folder path and the proper code to navigate UP a folder path. If you have familiarity with navigating folders in a command prompt, this should look at least somewhat familiar.  </p>
+
 </body>
 </html>
