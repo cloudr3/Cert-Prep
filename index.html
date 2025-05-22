@@ -425,6 +425,9 @@
 <h3> New Attributes I learned: </h3>
 <ul>
   <li> The "Target" attribute, specifies where to open the linked document. If you put in "_blank" as an example, your hyperlink will open up a brand new window/tab. </li>
+  <li> The "Shape" attribute, specifies the shape of the selectable area.  </li>
+  <li> The value of the "coords" attribute, can depend on the particular shape, it specifies the coordinates of an area in an image map. This attribute is used together with the shape attribute to specify the size, shape, and placement of an area. </li>
+  <li> The "alt" attribute, specifies alternate text. </li>
 </ul>
 
 <h3> Specific Links in HTML and their Purpose: </h3>
@@ -438,7 +441,29 @@
 
 <p> Most of the hyperlinks that you'll create to link from page to page within a website, are what we call "Relative links." For example, look at "33d-spotlight.html" (or really just go to video 24, and go to time-stamp 0.06) and take a look at the hyperlink that is within the Home, down below in the HTML. The hyperlink leads to the index.html within Domain 3's folder. This really only works because of how each of these files are within the same folder. If it were not, then it won't work. But to solve this, you know that most external links will not be in the same folder as the current HTML you are in. For this, now you will need an "Absolute link" which contains the complete address to the link. You can add an Absolute link to a text with, let's say for example, a wikipedia page, so just copy and paste the full link from the window of the wikipedia page and paste it within an "a" tag with the "href" attribute.</p>
 <p> Friendly reminder, when you create an external link, most of the time you will want to make sure you set that target to have the link open in a blank tab (use "_blank"). This is because of the GOLDEN RULE OF HYPERLINKS!!!! And that is to keep people on your website as much as possible.  </p>
+
+<h3> New HTML Tags I learned: </h3>
+<ul> 
+  <li> The "Map" tag, creates an image map that links to an image, while the area tag defines the different areas within the image map. It requires that the image on a webpage includes a selectable area, otherwise no change is applied to the webpage. </li>
+  <li> The "Area" tag, defines an area inside an image map (an image map is an image with clickable areas). </li>
+  <li> The "Form" tag, is used to create an HTML form for user input. These controls range from text fields, numeric inputs, and email fields to password fields, checkboxes, radio buttons, and submit buttons. </li>
+</ul>
+
+<p> With linking a Map element to the image element, no changes will happen with the web page. The reason might be because you haven't defined any selectable areas, so the web page will remain unchanged. </p>
+<p> An input form is a part of a website where you can type in information, like when you fill out a survey or apply for something online. Things like access keys and tab index help you move between the boxes on the form using just the keyboard instead of a mouse. This makes it easier for people who have trouble using a mouse to use the website. </p>
+
+<h3> Exam Tips given in the Videos: </h3>
+
 <p> FOR THE EXAM! You will want to make sure that when referencing links or images, you know the proper code to navigate DOWN a folder path and the proper code to navigate UP a folder path. If you have familiarity with navigating folders in a command prompt, this should look at least somewhat familiar.  </p>
+<p> Remember that the Map tag defines an image map using one or more area tags. That image map is then linked to an image, creating sperate selectable areas on an image that act similarly to standard hyperlinks. </p>
+<p> There is no need to be an expert in coding form Submission Scripts for this exam. But just know the most common Submission Methods and how they operate. Here are some Submission Methods:
+  <ul>
+    <li> "Get" = A request to retrieve something, like an image or web page. With this specific method, user attributes will appear in the URL. This method should NOT be used for submitting sensitive information. </li>
+    <li> "Post" = A request to take the submitted data and modify data on the server as a result of user input. An example would be a form post changing existing information. </li>
+    <li> "Put" = A request to take submitted data and insert it into a database. </li>
+    <li> "Delete" = A request to remove information from a database. This should be used with caution. </li>
+  </ul>
+</p>
 
 </body>
 </html>
