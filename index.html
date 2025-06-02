@@ -491,6 +491,7 @@
 
 <h3> Exam Tips given in the Videos: </h3>
 
+<p> FYI, just to let future me know, I do NOT have all the Exam Tips given in each Domain, so if anything, actually go and watch the videos to study. (Here's a TIP to make your life easier, just go to the final video in each Domain, that video is usually what you must truly study on) </p> 
 <p> FOR THE EXAM! You will want to make sure that when referencing links or images, you know the proper code to navigate DOWN a folder path and the proper code to navigate UP a folder path. If you have familiarity with navigating folders in a command prompt, this should look at least somewhat familiar.  </p>
 <p> Remember that the Map tag defines an image map using one or more area tags. That image map is then linked to an image, creating sperate selectable areas on an image that act similarly to standard hyperlinks. </p>
 <p> There is no need to be an expert in coding form Submission Scripts for this exam. But just know the most common Submission Methods and how they operate. Here are some Submission Methods:
@@ -593,7 +594,7 @@
 <p> In Domain 4, we will be reviewing what we have learned previously on adding image tags and it's attributes, and look at ways we can control a page layout with images. We'll also see how to create a hyperlink on an image. As you go to add images onto a web pagem you'll want to know what those image dimensions are, so you can scale the image accordingly. Just remember that the more you scale an image, the lower the quality of that image gets (especially if you scale the image to a larger size than its original). </p>
 
 <h3> About Images: </h3>
-<p> (this is just taken from another previous Domain, I just brought it back due to how this Domain is about images) </p>
+<p> (this is just taken from another previous Domain, I just brought it back due to how this Domain is somewhat about images) </p>
 <p> Now you might be wondering, how do we add images? The answer is, you don't. You cannot simply just add it by inserting it. To make an image apart of your web page, you really just link it from a web page to a stored location. So for any image link that you add, you will want to occasionally check and make sure the link still work. </p>
 <p> Now for any image, "alternate text" should be added for two reasons. First, if the image does not display, at least some text will be there to explain what the image was supposed to be. Secondly, screen readers use alternative text, to read text to those who need assistance with finding you what's on web pages. </p>
 
@@ -602,6 +603,9 @@
   <li> The "img" tag, is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. This tag creates a holding space for the referenced image. </li>
   <li> The "Video" tag, embeds a media player which supports video playback into the document. </li>
   <li> The "Source" tag, is used to specify multiple media resources for media elements, such as &lt;video&gt;, &lt;audio&gt;, and &lt;picture&gt;. The &lt;source&gt; tag allows you to specify alternative video/audio/image files which the browser may choose from, based on browser support or viewport width. </li>
+  <li> The "Audio" tag, can have multiple source tags and should have audio controls (controls attribute) for the user to control audio play settings. These tags are added to an HTML file in a very similar fashion as that of video tags. Here, you can add an mp3 formatted file, which is a very common audio file format, along with a wave format. </li>
+  <li> The "Track" tag, is used with VTT files, which add things like captions and subtitles to videos on websites. But not all web browsers support them. The most common types of VTT files are for captions and subtitles. You have to say which language the track is in when you use it. You can also add more than one track file if you want to include different languages. </li>
+  <li> The "iframe" tag, is a frame that holds content inside a webpage. The iframe can hold a source from another webpage that can easily be changed with the click of a  button or other user interaction. An iframe will let you put one HTML file within another HTML file. </li>
 </ul>
 
 <h3> New Attributes I learned: </h3>
@@ -611,10 +615,42 @@
   <li> The "Height" attribute, specifies the height of an image, in pixels. The tip is the same as width. </li>
   <li> The "Controls" attribute, instructs the browser to display default media controls for audio and video elements. </li>
   <li> The "Type" attribute, specifies the Internet media type (formerly known as MIME type) of the media resource. </li>
+  <li> The "Kind" attribute, specifies the kind of text track. Can only be applied to the "Track" tag. </li>
+  <li> The "srclang" attribute, specifies the language of the track text data. This attribute is required if kind="subtitles". </li>
+  <li> The "Label" attribute, in HTML is used within the &lt;track&gt; element, which is typically used to specify text tracks for &lt;video&gt; or &lt;audio&gt; elements. The label attribute provides a user-friendly name for the track, making it easier for users to identify and select the track (e.g., subtitles, captions, or descriptions) in a media player.  </li>
 </ul>
 
 <p> When trying to get images to line up in rows and columns, we should use one of two methods. Either a Table or through CSS. </p>
 <p> Adding a hyperlink to an image involves using the same tag and attributes, as is the case with adding a hyperlink around text. We'll still need the "a" tag and a hyperlink reference. The key is to surround the image tag with the "a" tag, and not the other way around. </p>
+<p> Within Domain 4, I have learned how you can have more than one soutce specified for video format. The 3 most common video formats you'll see are:
+  <ul>
+    <li> MPEG (.mp4) = Also known as the H.264 format. The most common output for video editing software. </li>
+    <li> WebM (.webm) = Works on less powerful devices. </li>
+    <li> Ogg (.ogg) = A royalty-free video format. </li>
+  </ul>  
+  Though these are the most common video formats, many other video formats are supported. The most important thing you can do is test the formats you use across multiple browsers.
+</p>
+
+<h3> Exam Tips given in the Videos: </h3>
+<p> For this exam, you need to know how to add an iframe tag and know what it does, not how to programmatically change it. </p>
+<p> One thing to remember as you practice studying for HTML coding (or just practicing in general), if the page displays the way you anticipated, you use tags and attributes perfectly! If not, look for a missing angle bracket, a misspelled tag, or a typo. HTML code does NOT show alert messages when there is an error. The only result you have to go by is the web page itself. So finding errors takes good proofreading skills. </p>
+<p> Be sure to know the proper way to display an image.
+  <ul>
+    <li> Using the src attribute of the img tag. </li> 
+  </ul>
+</p>
+<p> Be able to set the width, height, and alternate text for an image. </p>
+<p> Be able to add a hyperlink to an image. </p>
+<p> Know how to implement a video with controls.
+  <ul>
+    <li> Be able to apply multiple sources and a track to a video. </li> 
+  </ul>
+</p>
+<p> Be able to implement audio with controls.
+  <ul>
+    <li> Be able to attach multiple sources to it. </li> 
+  </ul>
+</p>
 
 <hr>
 
